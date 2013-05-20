@@ -51,7 +51,8 @@ module ActiveAdmin
             if params[:q] || params[:scope]
               render_empty_results
             else
-              render_blank_slate
+              # render_blank_slate
+              render_index
             end
           end
         end
